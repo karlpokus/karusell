@@ -1,0 +1,29 @@
+{
+  "name": "karusell",
+  "version": "0.1.0",
+  "description": "Router for node",
+  "main": "karusell.js",
+  "scripts": {
+    "test": "tape ./test/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlpokus/karusell.git"
+  },
+  "keywords": [
+    "router",
+    "node"
+  ],
+  "author": "Karl Pokus <karl.pokus@gmail.com> (https://github.com/karlpokus)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karlpokus/karusell/issues"
+  },
+  "homepage": "https://github.com/karlpokus/karusell#readme",
+  "devDependencies": {
+    "tape": "^4.6.0"
+  },
+  "dependencies": {
+    "pype-stack": "^0.1.1"
+  }
+}
