@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/karusell.svg)](https://badge.fury.io/js/karusell)
+
 # karusell
 Router for node
 
