@@ -1,6 +1,6 @@
 var pype = require('pype-stack');
 
-module.exports = {
+var o = {
   GET: {},
   POST: {},
   PUT: {},
@@ -29,3 +29,11 @@ module.exports = {
     }
   }
 }
+
+for (var k in o) {
+  if (typeof o[k] === 'function') {
+    o[k] = o[k].bind(o);
+  }
+}
+
+module.exports = o;
